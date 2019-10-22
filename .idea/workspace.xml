@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7db0ca61-af48-4f9f-99a3-9a2392917d82" name="Default Changelist" comment="" />
+    <list default="true" id="7db0ca61-af48-4f9f-99a3-9a2392917d82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/application.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/util.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/util.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/land.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/land.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ortform.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ortform.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ortliste.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ortliste.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/person.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/person.htm.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,11 +28,12 @@
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/mygibs" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SZRFZZXUL1vwv0tVS22WT0VSPB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -45,6 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571769028730</updated>
       <workItem from="1571769029870" duration="204000" />
+      <workItem from="1571769858189" duration="590000" />
     </task>
     <servers />
   </component>
@@ -56,7 +72,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

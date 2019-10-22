@@ -1,5 +1,5 @@
 <!--
- * @author Florian Leimer
+ * @author David Dubach
  * @version 2019
  *
  * Template Formular Ort. Responsiv mit Bootstrap.
@@ -24,7 +24,7 @@
     <div class="form-group row">
         <div class="col-auto">
             <input class="btn btn-outline-secondary" type="submit" name="speichern" value="speichern">
-            <input class="btn btn-outline-secondary" type="submit" name="loeschen" value="löschen" <?= getAdditionalAttributes('loeschen') ?>>
+            <input class="btn btn-outline-secondary" type="submit" name="loeschen" value="lï¿½schen" <?= getAdditionalAttributes('loeschen') ?>>
             <input class="btn btn-outline-secondary" type="submit" name="abbrechen" value="abbrechen">
         </div>
     </div>

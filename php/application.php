@@ -1,6 +1,6 @@
 <?php
 /**
- * @autor Florian Leimer
+ * @autor David Dubach
  * @version 2019
  *
  *  Dieses Modul beinhaltet Funktionen, welche die Anwendungslogik implementieren.
@@ -8,7 +8,7 @@
  */
 
 /*
- * Gibt die entsprechende CSS-Klasse aus einem assiziativen Array (key: Name Eingabefeld) zurück.
+ * Gibt die entsprechende CSS-Klasse aus einem assiziativen Array (key: Name Eingabefeld) zurï¿½ck.
  * Wird im Template aufgerufen.
  *
  * @param   $name       Name des Eingabefeldes
@@ -32,7 +32,7 @@ function setCssClassInvalid($name)
 }
 
 /*
- * Gibt zusätzliche Attribute für ein Feld aus einem assiziativen Array (key: Name Eingabefeld) zurück.
+ * Gibt zusï¿½tzliche Attribute fï¿½r ein Feld aus einem assiziativen Array (key: Name Eingabefeld) zurï¿½ck.
  * Wird im Template aufgerufen.
  *
  * @param   $name       Name des Eingabefeldes
@@ -56,7 +56,7 @@ function setDisabled($name)
 }
 
 /*
- * Funktion zur Eingabeprüfung eines Landes.
+ * Funktion zur Eingabeprï¿½fung eines Landes.
  */
 function checkLandInput()
 {
@@ -71,7 +71,7 @@ function checkLandInput()
 }
 
 /*
- * Funktion zur Eingabeprüfung eines Ortes.
+ * Funktion zur Eingabeprï¿½fung eines Ortes.
  */
 function checkOrtInput()
 {
@@ -90,7 +90,7 @@ function checkOrtInput()
 }
 
 /*
- * Funktion zur Eingabeprüfung einer Person.
+ * Funktion zur Eingabeprï¿½fung einer Person.
  */
 function checkPersonInput()
 {
@@ -171,7 +171,7 @@ function land()
         //setDisabled('loeschen');
     }
 
-    // Template abfüllen und Resultat zurückgeben
+    // Template abfï¿½llen und Resultat zurï¿½ckgeben
     setValue('formaction', $formaction);
     setValue('phpmodule', $_SERVER['SCRIPT_NAME'] . "?id=" . __FUNCTION__);
     setValues($additionalValues);
@@ -215,7 +215,7 @@ function ort()
 
     setValue('data', db_get_orte());
 
-    // Template abfüllen und Resultat zurückgeben
+    // Template abfï¿½llen und Resultat zurï¿½ckgeben
     setValue('formaction', $formaction);
     setValue('phpmodule', $_SERVER['SCRIPT_NAME'] . "?id=" . __FUNCTION__);
     return runTemplate($template);
@@ -288,7 +288,7 @@ function person()
     setValue('orte', db_get_orte());
     setValue('laender', db_get_laender());
 
-    // Template abfüllen und Resultat zurückgeben
+    // Template abfï¿½llen und Resultat zurï¿½ckgeben
     setValue('phpmodule', $_SERVER['SCRIPT_NAME'] . "?id=" . __FUNCTION__);
     setValues($additionalValues);
     return runTemplate("templates/person.htm.php");

@@ -1,9 +1,9 @@
 <?php
 /**
- *  @autor Florian Leimer
+ *  @autor David Dubach
  *  @version 2019
  *
- *  Dieses Modul beinhaltet sämtliche Datenbankfunktionen.
+ *  Dieses Modul beinhaltet sï¿½mtliche Datenbankfunktionen.
  *  Die Funktionen formulieren die SQL-Anweisungen und rufen dann die Funktionen
  *  sqlQuery() und sqlSelect() aus dem Modul basic_functions.php auf.
  *

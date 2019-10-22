@@ -1,5 +1,5 @@
 <!--
- * @author Florian Leimer
+ * @author David Dubach
  * @version 2019
  *
  * Haupttemplate.

@@ -1,5 +1,5 @@
 <!--
- * @author Florian Leimer
+ * @author David Dubach
  * @version 2019
  *
  * Template Formular Person. Responsiv mit Bootstrap.
@@ -56,7 +56,7 @@
         </div>
     </div>
     <div class="form-group row">
-        <label for="tel_gesch" class="col-sm-2 col-form-label">Telefon Geschäft</label>
+        <label for="tel_gesch" class="col-sm-2 col-form-label">Telefon Geschï¿½ft</label>
         <div class="col-sm-10">
             <input class="form-control <?php echo getCssClass('land') ?>" type="text" id="tel_gesch" name="tel_gesch" value="<?= getHtmlValue('tel_gesch') ?>">
         </div>
@@ -77,7 +77,7 @@
             <input class="btn btn-outline-secondary" type="submit" name="suchen" value="suchen">
             <input class="btn btn-outline-secondary" type="submit" name="neu" value="neu">
             <input class="btn btn-outline-secondary" type="submit" name="speichern" value="speichern">
-            <input class="btn btn-outline-secondary" type="submit" name="loeschen" value="löschen" <?= getAdditionalAttributes('loeschen') ?>>
+            <input class="btn btn-outline-secondary" type="submit" name="loeschen" value="lï¿½schen" <?= getAdditionalAttributes('loeschen') ?>>
         </div>
         <div class="col text-right">
             <input class="btn btn-outline-secondary" type="submit" name="navleft" value="<<" <?= getAdditionalAttributes('navleft') ?>>

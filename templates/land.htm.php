@@ -1,5 +1,5 @@
 <!--
- * @author Florian Leimer
+ * @author David Dubach
  * @version 2019
  *
  * Template Formular und Liste Land. Responsiv mit Bootstrap.
@@ -18,7 +18,7 @@
             <input class="btn btn-outline-secondary" type="submit" name="suchen" value="suchen">
             <input class="btn btn-outline-secondary" type="submit" name="neu" value="neu">
             <input class="btn btn-outline-secondary" type="submit" name="speichern" value="speichern">
-            <input class="btn btn-outline-secondary" type="submit" name="loeschen" value="löschen" <?= getAdditionalAttributes('loeschen') ?>>
+            <input class="btn btn-outline-secondary" type="submit" name="loeschen" value="lï¿½schen" <?= getAdditionalAttributes('loeschen') ?>>
         </div>
     </div>
 </form>

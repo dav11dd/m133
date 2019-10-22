@@ -1,15 +1,16 @@
 <?php
+error_reporting(E_ERROR);
 /*
  *  @autor Daniel Mosimann
  *  @version 2019
  * 
- *  Ausschliessliche dieses Modul wird über die URL aufgerufen. Je nach übergebenem
- *  Parameter "id" wird die entsprechende Funktion ausgeführt. Am Schluss wird das
- *  Haupttemülate eingefügt.
+ *  Ausschliessliche dieses Modul wird ï¿½ber die URL aufgerufen. Je nach ï¿½bergebenem
+ *  Parameter "id" wird die entsprechende Funktion ausgefï¿½hrt. Am Schluss wird das
+ *  Haupttemï¿½late eingefï¿½gt.
  * 
  *  Beispielaufruf:         http://localhost/index.php?id=show
  * 
- *  Im Beispiel wird die Funktion "show" ausgeführt.
+ *  Im Beispiel wird die Funktion "show" ausgefï¿½hrt.
  */
 header('Content-Type: text/html; charset=iso-8859-1');
 session_start();
@@ -18,10 +19,10 @@ include("php/config.php");
 include("php/db.php");
 include("php/application.php");
 
-// Anmeldung oder andere Sicherheitschecks, falls erwünscht!
+// Anmeldung oder andere Sicherheitschecks, falls erwï¿½nscht!
 // anmeldung(), check_security(), etc.
 
-// Dispatching, die über den Parameter "id" definierte Funktion ausführen
+// Dispatching, die ï¿½ber den Parameter "id" definierte Funktion ausfï¿½hren
 $func = $_REQUEST['id'];
 
 // Falls  cfg_func_list nicht existiert, abbrechen!
@@ -29,9 +30,9 @@ $flist = getValue('cfg_func_list');
 if ( !count($flist) ) die("cfg_func_list nicht definiert!");
 // Falls  die verlangte Funktion nicht in der Liste der akzeptierten Funktionen ist, Default-Wert setzen!
 if ( !in_array($func, $flist) ) $func = $flist[0];
-// Aktiver Link global speichern, da dieser später noch verwendet wird
+// Aktiver Link global speichern, da dieser spï¿½ter noch verwendet wird
 setValue('func', $func);
-// Funktion aufrufen und Rückgabewert in "inhalt" speichern
+// Funktion aufrufen und Rï¿½ckgabewert in "inhalt" speichern
 setValue( 'inhalt', $func() );
 
 // Haupttemplate aufrufen, Ausgabe an Client (Browser) senden
